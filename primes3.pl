@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 $max=1000000;
 $primes[0]=2;
-$next=0;
-for ($i=2; $i<$max; ++$i)
+$next=1;
+print "2\t";
+for ($i=3; $i<$max; $i += 2)
 {
        $dividable=0;
        $j=0;
